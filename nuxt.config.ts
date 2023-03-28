@@ -9,7 +9,7 @@ export default defineNuxtConfig({
         title: "Explore continent",
         meta: [
           { name: "description", content: "Explore continent" },
-          // { name: 'viewport', content: 'width=device-width, initial-scale=1.0' },
+        
         ],
         script: [
           {
