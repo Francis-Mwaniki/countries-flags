@@ -57,7 +57,7 @@ const loading = ref(true);
 
 const getCountries = async () => {
   try {
-    let url = "https://endpoints-gdfd.onrender.com/api/country";
+    let url = "https://wicked-blue-swallow.cyclic.app/api/country";
     const response = await fetch(url);
     loading.value = true;
     if (response.ok) {

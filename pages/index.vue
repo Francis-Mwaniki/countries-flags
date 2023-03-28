@@ -53,7 +53,7 @@ const continents = ref([]);
 const loading = ref(true);
 const getContinents = async () => {
   try {
-    let url = "https://endpoints-gdfd.onrender.com/api/continents";
+    let url = "https://wicked-blue-swallow.cyclic.app/api/continents";
     const response = await fetch(url);
     loading.value = true;
     if (response.ok) {
