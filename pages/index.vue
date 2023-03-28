@@ -53,7 +53,7 @@ const continents = ref([]);
 const loading = ref(true);
 const getContinents = async () => {
   try {
-    let url = "http://localhost:3000/api/continents";
+    let url = "https://endpoints-gdfd.onrender.com/api/continents";
     const response = await fetch(url);
     loading.value = true;
     if (response.ok) {

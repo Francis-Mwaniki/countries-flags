@@ -57,7 +57,7 @@ const loading = ref(true);
 
 const getCountries = async () => {
   try {
-    let url = "http://localhost:3000/api/country";
+    let url = "https://endpoints-gdfd.onrender.com/api/country";
     const response = await fetch(url);
     loading.value = true;
     if (response.ok) {

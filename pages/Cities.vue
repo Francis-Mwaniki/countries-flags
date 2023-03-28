@@ -53,7 +53,7 @@ const cities = ref([]);
 const loading = ref(true);
 const getcities = async () => {
   try {
-    let url = "http://localhost:3000/api/cities";
+    let url = "https://endpoints-gdfd.onrender.com/api/cities";
     const response = await fetch(url);
     loading.value = true;
     if (response.ok) {
