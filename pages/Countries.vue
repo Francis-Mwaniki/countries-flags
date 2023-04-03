@@ -121,7 +121,6 @@ async function filteredCountry(query) {
     console.log(countries.value);
     setTimeout(() => {
       loading.value = false;
-      warn.value = true;
     }, 10000);
   } else {
     loading.value = false;
