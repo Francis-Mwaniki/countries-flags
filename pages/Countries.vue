@@ -88,7 +88,6 @@ const getCountries = async () => {
       console.log(countries.value);
       setTimeout(() => {
         loading.value = false;
-        warn.value = true;
       }, 6000);
     } else {
       loading.value = false;
