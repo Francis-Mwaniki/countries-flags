@@ -60,6 +60,9 @@ const getContinents = async () => {
       const data = await response.json();
       continents.value = data;
       console.log(continents.value);
+      setTimeout(() => {
+        loading.value = false;
+      }, 5000);
     } else {
       loading.value = false;
       let data = await response.json();
