@@ -24,7 +24,7 @@
     </div>
 
     <!-- div footer  developed by francis with  love-->
-    <div class="py-6 bg-green-700 text-white bottom-1 w-full inset-x-0">
+    <div class="py-6 text-white bottom-1 w-full inset-x-0">
       <div class="text-green-50 p-4">
         <div class="container mx-auto flex justify-end items-center md:flex-row flex-col">
           <!-- social limks with tailwindcss -->
