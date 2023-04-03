@@ -76,7 +76,7 @@ import { ref, computed, watch, onMounted, onUnmounted } from "vue";
 const countries = ref([]);
 const search = ref("");
 const loading = ref(true);
-const warn = ref(true);
+const warn = ref(false);
 const getCountries = async () => {
   try {
     let url = "https://wicked-blue-swallow.cyclic.app/api/country";
